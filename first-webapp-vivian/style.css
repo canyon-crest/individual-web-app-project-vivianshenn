@@ -1,15 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #fdf6f9;
+    background-color: #a7bcef;
     color: #333;
 }
 
 header {
-    background-color: #d88acb;
+    background-color: #3c578d;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -51,7 +51,7 @@ main {
 }
 
 button {
-    background-color: #d88acb;
+    background-color: #3c578d;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-    background-color: #c06ab5;
+    background-color: #334781;
 }
 
 .hidden {
@@ -70,5 +70,5 @@ button:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #eee;
+    background-color: #8093cb;
 }

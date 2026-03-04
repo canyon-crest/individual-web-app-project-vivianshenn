@@ -1,14 +1,15 @@
-function toggleInfo(id) {
-    const element = document.getElementById(id);
-    element.classList.toggle("hidden");
+function showFact() {
+    const fact = "Dancing is one of the oldest art forms, with cave paintings showing people dancing over 20,000 years ago, long before written records.";
+    document.getElementById("danceFact").textContent = fact;
 }
 
-function showMessage() {
-    const name = document.getElementById("name").value;
-    const style = document.getElementById("style").value;
+function respondStyle() {
+    const style = document.getElementById("favoriteStyle").value;
+    const response = document.getElementById("styleResponse");
 
-    const response = document.getElementById("response");
-    response.textContent = `Thank you, ${name}! ${style} is an amazing dance style!`;
-
-    return false; // prevents page refresh
+    if (style === "") {
+        response.textContent = "Please enter a dance style!";
+    } else {
+        response.textContent = style + " is such a beautiful dance style!";
+    }
 }
