@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dance!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Dance World</h1>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="intro">
+        <h2>Explore the Art of Dance</h2>
+        <p>Interested in dancing? Learn more about dance and helpful tips for you to get started on your dance journey!</p>
+    </section>
+
+    <section class="styles">
+        <h2>Dance Styles</h2>
+
+        <div class="style-card">
+            <h3>Ballet</h3>
+            <button onclick="toggleInfo('ballet')">Learn More</button>
+            <p id="ballet" class="hidden">
+                Ballet is a classical dance form known for grace, precision, and technical skill.
+            </p>
+        </div>
+
+        <div class="style-card">
+            <h3>Hip-Hop</h3>
+            <button onclick="toggleInfo('hiphop')">Learn More</button>
+            <p id="hiphop" class="hidden">
+                Hip-hop is energetic and expressive, rooted in street culture and freestyle movement.
+            </p>
+        </div>
+
+        <div class="style-card">
+            <h3>Contemporary</h3>
+            <button onclick="toggleInfo('contemporary')">Learn More</button>
+            <p id="contemporary" class="hidden">
+                Contemporary blends ballet and modern dance with emotional storytelling.
+            </p>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Dance World</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
